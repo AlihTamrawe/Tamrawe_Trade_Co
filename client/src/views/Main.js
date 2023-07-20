@@ -27,7 +27,6 @@ const Main = (props) => {
         <div>
  
            {/* <ProductForm/> */}
-           <hr/>
            {/* {loaded && <ProductList product={products} />} */}
         </div>
     )
