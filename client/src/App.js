@@ -13,8 +13,9 @@ function App() {
     <div className="App">
 
 
-         <p> <Link to="/">home</Link></p>
-      <h1>Welcome </h1>
+          <Link to="/">home</Link> 
+       
+      
 
       <Routes>
       <Route path="/" element={ <Main />} />
