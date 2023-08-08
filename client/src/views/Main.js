@@ -9,36 +9,24 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Header from './Header';
-import MainFeaturedPost from './MainFeaturedPost';
-import FeaturedPost from './FeaturedPost';
- import Sidebar from './Sidebar';
 import Footer from './Footer';
+ 
 
 const Main = (props) => {
-    // const [products, setproducts] = useState(null);
-    // const [loaded, setLoaded] = useState(false);
-    
-    // useEffect(()=>{
-    //     axios.get('http://localhost:8000/api/product')
-    //         .then(res=>{
-    //             setproducts(res.data);
-    //             setLoaded(true);
-    //         })
-    //         .catch(err => console.error(err));
-    // },[products]);
-    
-
-    // const removeFromDom = personId => {
-    //     setproducts(products.filter(pr => pr._id != prId));
-    // }
-
-
+    const theme = createTheme({
+        status: {
+          danger: orange[500],
+        },
+      });
     return (
-        <div>
- 
-        
-        </div>
+        < >
+        <ThemeProvider theme={ Theme}>
+        <CssBaseline />
+        <Container maxWidth="lg">
+            </Container>
+            </ThemeProvider>
+        <Footer description={"2023"} title='TTCo.'></Footer>
+        </>
     )
 }
     
