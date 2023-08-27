@@ -36,11 +36,13 @@ function Footer(props) {
           {description}
         </Typography>
         <Copyright />
+
+        
       </Container>
 
       <Container maxWidth="lg">
         <Typography variant="h6" align="center" gutterBottom>
-          {title +"hi"}
+          {title +"hi"+"boy"}
         </Typography>
         <Typography
           variant="subtitle1"
